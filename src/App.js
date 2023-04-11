@@ -79,7 +79,7 @@ function App() {
                                 <li>{v.username}</li>
                                 <li>{v.password}</li>
                             </div>
-                            <button className={'rounded p-2 bg-red-500 text-white'} onClick={()=>removeItem(i)}>x</button>
+                            <button title={'Delete'} className={'rounded p-2 bg-red-500 text-white'} onClick={()=>removeItem(i)}>x</button>
                         </div>
                     ))
                 }
